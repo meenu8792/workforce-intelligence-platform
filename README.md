@@ -70,18 +70,3 @@ Run `npm run build`, `npm run lint`, and `npm run typecheck` before submitting c
 ## Data and database configuration
 
 The application initialises demo workforce records in `src/lib/seed.ts` and manages client-side state in `src/lib/store.ts` using Zustand persistence. The repository also includes PostgreSQL/Drizzle setup under `src/db` and `drizzle.config.json`. The current schema entry point `src/db/schema.ts` does not define database tables, so verify database-backed persistence and deployment environment configuration before describing PostgreSQL as the active store for all application records.
-
-If using the database connection module, set `DATABASE_URL` in your local environment to a database you control. Never commit secrets or production credentials. The included Drizzle config contains a local development connection string; replace it with an environment-variable-based configuration before using a real deployment database.
-
-## Repository hygiene
-
-Do not commit `.env` files, credentials, `node_modules/`, or generated `.next/` build output. Use synthetic/demo records for presentations; do not upload real employee personal data.
-
-## Final review checklist
-
-- [ ] Confirm the deployed site corresponds to the reviewed commit.
-- [ ] Install dependencies from a clean clone.
-- [ ] Run lint, typecheck, and production build; record actual results.
-- [ ] Test role-specific workflows and data import.
-- [ ] Test Copilot questions and validate displayed calculations.
-- [ ] Add verified Agile records and the final demo video link.

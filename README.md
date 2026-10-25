@@ -2,8 +2,13 @@
 
 A workforce-management web application built with Next.js, React, TypeScript, Tailwind CSS, Zustand, and Recharts. It brings role-oriented workforce workflows and visual summaries into one interface.
 
-**Live deployment:** https://aiworkforcesystem.netlify.app/  
-**Repository:** https://github.com/meenu8792/workforce-intelligence-platform
+## Project Demo
+Watch the recorded demonstration of the Workforce Intelligence Platform.
+
+- **[Watch / Download Demo Video](https://github.com/meenu8792/workforce-intelligence-platform/releases/tag/demo-v1.0)**
+- **[Launch Live Application](https://aiworkforcesystem.netlify.app/)**
+- **[View Source Code](https://github.com/meenu8792/workforce-intelligence-platform)**
+- **[View Agile Documentation](https://github.com/meenu8792/workforce-intelligence-platform/blob/main/docs/AGILE_DELIVERY.md)**
 
 ## Main capabilities
 

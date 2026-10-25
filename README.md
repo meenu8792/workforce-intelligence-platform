@@ -2,6 +2,9 @@
 
 A workforce-management web application built with Next.js, React, TypeScript, Tailwind CSS, Zustand, and Recharts. It brings role-oriented workforce workflows and visual summaries into one interface.
 
+**Project Presentation**
+**[View / Download](docs/Workforce_Intelligence_Platform_Presentation.pptx)** 
+  This presentation introduces the project's objectives, key features, technology stack, and application workflow.
 ## Project Demo
 Watch the recorded demonstration of the Workforce Intelligence Platform.
 
